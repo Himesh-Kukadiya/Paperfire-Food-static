@@ -10,6 +10,7 @@ import Galary from './Components/Galary';
 import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Service from './Components/Service';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Service />
       <Product />
       <Galary />
       <Testimonials />
