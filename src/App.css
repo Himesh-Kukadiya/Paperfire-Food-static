@@ -194,7 +194,7 @@ body {
 .product-card {
     background-color: #1F1F1F;
     border-radius: 8px;
-    max-height: 450px;
+    /* max-height: 450px; */
     overflow: hidden;
     padding: 20px;
     text-align: center;
