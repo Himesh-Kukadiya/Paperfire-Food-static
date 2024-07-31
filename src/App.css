@@ -7,7 +7,7 @@ body {
 
 .navbar {
     background-color: #111;
-    padding: 10px 0px;
+    padding: 10px;
     font-size: 20px;
 }
 
@@ -177,7 +177,6 @@ body {
     line-height: 1.5;
 }
 
-
 /* Product Section */
 .products {
     padding: 60px 0;
@@ -194,10 +193,6 @@ body {
 .product-card {
     background-color: #1F1F1F;
     border-radius: 8px;
-<<<<<<< HEAD
-    /* max-height: 450px; */
-=======
->>>>>>> product
     overflow: hidden;
     padding: 20px;
     text-align: center;

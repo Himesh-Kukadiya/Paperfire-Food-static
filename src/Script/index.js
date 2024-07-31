@@ -97,7 +97,51 @@ const galleryList = [
     },
 ];
 
+const testimonialsLsit = [
+    {
+        id: 't1',
+        cName: "John Doe",
+        cMessage: "Great service and equipment! The delivery was prompt and everything was in perfect condition.",
+    },
+    {
+        id: 't2',
+        cName: "Jane Smith",
+        cMessage: "We've been using Paperfire Food for years and love it! The quality of products and service are top-notch.",
+    },
+    {
+        id: "t3",
+        cName: "David Johnson",
+        cMessage: "We've used Paperfire Food for a few years now and they always deliver on time and with great quality.",
+    },
+    {
+        id: "t4",
+        cName: "Emily Davis",
+        cMessage: "We've been using Paperfire Food for a few years now and they always deliver on time and with great quality.",
+    },
+    {
+        id: "t5",
+        cName: "Michael Wilson",
+        cMessage: "Paperfire Food has been our go-to for years and we've been very satisfied with their service and products.",
+    },
+    {
+        id: "t6",
+        cName: "Sarah Thompson",
+        cMessage: "Paperfire Food has been our go-to for years and we've been very satisfied with their service and products.",
+    },
+    {
+        id: "t7",
+        cName: "Christopher Lee",
+        cMessage: "Paperfire Food has been our go-to for years and we've been very satisfied with their service and products.",
+    },
+    {
+        id: "t8",
+        cName: "Jennifer Brown",
+        cMessage: "Paperfire Food has been our go-to for years and we've been very satisfied with their service and products.",
+    }
+]
+
 export {
     productList,
-    galleryList
+    galleryList,
+    testimonialsLsit
 }
