@@ -13,6 +13,44 @@ import {
     gallery6,
 } from './assets';
 
+const menuItemsList = [
+    {
+        id: 'm1',
+        title: "Home",
+        link: "#home"
+    },
+    {
+        id: 'm2',
+        title: "About",
+        link: "#about"
+    },
+    {
+        id: 'm3',
+        title: "Services",
+        link: "#services"
+    },
+    {
+        id: 'm4',
+        title: "Products",
+        link: "#products"
+    },
+    {
+        id: 'm5',
+        title: "Gallery",
+        link: "#gallery"
+    },
+    {
+        id: 'm6',
+        title: "Testimonials",
+        link: "#testimonials"
+    },
+    {
+        id: 'm7',
+        title: "Contact",
+        link: "#contact"
+    },
+];
+
 const productList = [
     {
         id: 1,
@@ -56,6 +94,166 @@ const productList = [
     },
     {
         id: 6,
+        name: "Griddle",
+        des: "Ideal for pancakes and sandwiches.",
+        price: 599,
+        time: " / day",
+        image: product6
+    },
+    {
+        id: 7,
+        name: "Commercial Oven",
+        des: "High-quality commercial oven for your kitchen needs.",
+        price: 500,
+        time: " / day",
+        image: product1
+    },
+    {
+        id: 8,
+        name: "Refrigeration Unit",
+        des: "Energy-efficient refrigeration unit to keep your food fresh.",
+        price: 700,
+        time: " / day",
+        image: product2
+    },
+    {
+        id: 9,
+        name: "Dishwasher",
+        des: "High-capacity dishwasher for busy kitchens.",
+        price: 699,
+        time: " / day",
+        image: product3
+    },
+    {
+        id: 10,
+        name: "Deep Fryer",
+        des: "Commercial deep fryer for perfect frying every time.",
+        price: 150,
+        time: " / hour",
+        image: product4
+    },
+    {
+        id: 11,
+        name: "Convection Oven",
+        des: "Even cooking with circulating air.",
+        price: 1000,
+        time: " / day",
+        image: product5
+    },
+    {
+        id: 12,
+        name: "Griddle",
+        des: "Ideal for pancakes and sandwiches.",
+        price: 599,
+        time: " / day",
+        image: product6
+    },
+    {
+        id: 13,
+        name: "Commercial Oven",
+        des: "High-quality commercial oven for your kitchen needs.",
+        price: 500,
+        time: " / day",
+        image: product1
+    },
+    {
+        id: 14,
+        name: "Refrigeration Unit",
+        des: "Energy-efficient refrigeration unit to keep your food fresh.",
+        price: 700,
+        time: " / day",
+        image: product2
+    },
+    {
+        id: 15,
+        name: "Dishwasher",
+        des: "High-capacity dishwasher for busy kitchens.",
+        price: 699,
+        time: " / day",
+        image: product3
+    },
+    {
+        id: 16,
+        name: "Deep Fryer",
+        des: "Commercial deep fryer for perfect frying every time.",
+        price: 150,
+        time: " / hour",
+        image: product4
+    },
+    {
+        id: 17,
+        name: "Convection Oven",
+        des: "Even cooking with circulating air.",
+        price: 1000,
+        time: " / day",
+        image: product5
+    },
+    {
+        id: 18,
+        name: "Griddle",
+        des: "Ideal for pancakes and sandwiches.",
+        price: 599,
+        time: " / day",
+        image: product6
+    },
+    {
+        id: 19,
+        name: "Convection Oven",
+        des: "Even cooking with circulating air.",
+        price: 1000,
+        time: " / day",
+        image: product5
+    },
+    {
+        id: 20,
+        name: "Griddle",
+        des: "Ideal for pancakes and sandwiches.",
+        price: 599,
+        time: " / day",
+        image: product6
+    },
+    {
+        id: 21,
+        name: "Commercial Oven",
+        des: "High-quality commercial oven for your kitchen needs.",
+        price: 500,
+        time: " / day",
+        image: product1
+    },
+    {
+        id: 22,
+        name: "Refrigeration Unit",
+        des: "Energy-efficient refrigeration unit to keep your food fresh.",
+        price: 700,
+        time: " / day",
+        image: product2
+    },
+    {
+        id: 23,
+        name: "Dishwasher",
+        des: "High-capacity dishwasher for busy kitchens.",
+        price: 699,
+        time: " / day",
+        image: product3
+    },
+    {
+        id: 24,
+        name: "Deep Fryer",
+        des: "Commercial deep fryer for perfect frying every time.",
+        price: 150,
+        time: " / hour",
+        image: product4
+    },
+    {
+        id: 25,
+        name: "Convection Oven",
+        des: "Even cooking with circulating air.",
+        price: 1000,
+        time: " / day",
+        image: product5
+    },
+    {
+        id: 26,
         name: "Griddle",
         des: "Ideal for pancakes and sandwiches.",
         price: 599,
@@ -143,5 +341,6 @@ const testimonialsLsit = [
 export {
     productList,
     galleryList,
-    testimonialsLsit
+    testimonialsLsit,
+    menuItemsList
 }
