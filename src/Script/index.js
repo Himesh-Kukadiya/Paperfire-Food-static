@@ -5,6 +5,12 @@ import {
     product4, 
     product5, 
     product6,
+    gallery1,
+    gallery2,
+    gallery3,
+    gallery4,
+    gallery5,
+    gallery6,
 } from './assets';
 
 const productList = [
@@ -58,6 +64,40 @@ const productList = [
     },
 ];
 
+const galleryList = [
+    {
+        id: "g1",
+        name: "Commercial Oven",
+        image: gallery1,
+    },
+    {
+        id: "g2",
+        name: "Refrigeration Unit",
+        image: gallery2,
+    },
+    {
+        id: "g3",
+        name: "Dishwasher",
+        image: gallery3,
+    },
+    {
+        id: "g4",
+        name: "Deep Fryer",
+        image: gallery4,
+    },
+    {
+        id: "g5",
+        name: "Convection Oven",
+        image: gallery5,
+    },
+    {
+        id: "g6",
+        name: "Griddle",
+        image: gallery6,
+    },
+];
+
 export {
-    productList
+    productList,
+    galleryList
 }
