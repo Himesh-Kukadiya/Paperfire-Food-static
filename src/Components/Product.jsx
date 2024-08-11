@@ -1,36 +1,36 @@
-import { menuItemsList } from '../Script/index'; // Adjust the path as necessary
+import { useState } from 'react';
+import { productList } from '../Script/index';
 
-const Footer = () => {
+const Product = () => {
+    const [visibleProducts, setVisibleProducts] = useState(6);
+
+    const loadMoreProducts = () => {
+        setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 6);
+    };
+
     return (
-        <footer className="footer-section">
+        <section id="products" className="products">
             <div className="container">
-                <div className="row">
-                    <div className="col-md-6">
-                        <h5 className="footer-title">Quick Links</h5>
-                        <ul className="footer-links">
-                            {menuItemsList.map((item) => (
-                                <li key={item.id}>
-                                    <a href={item.link}>{item.title}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                    <div className="col-md-6">
-                        <h5 className="footer-title">Contact Info</h5>
-                        <ul className="footer-contact-info">
-                            <li><i className="fas fa-phone"></i> Phone: (XXX) XXX-XXXX</li>
-                            <li><i className="fas fa-envelope"></i> Email: info@paperfirefood.com</li>
-                            <li><i className="fas fa-map-marker-alt"></i> Address: [Insert Address]</li>
-                            <li><i className="fas fa-clock"></i> Hours of Operation: Monday - Friday: 9 AM - 6 PM</li>
-                        </ul>
-                    </div>
+                <h2 className="section-title text-center">Our Equipment for Rent</h2>
+                <div className="product-grid">
+                    {productList.slice(0, visibleProducts).map((product) => (
+                        <div className="product-card" key={product.id}>
+                            <img src={product.image} alt={product.name} />
+                            <h3>{product.name}</h3>
+                            <p className="description">{product.des}</p>
+                            <p className="price">₹{product.price} {product.time}</p>
+                            <a href="#" className="btn">Rent Now</a>
+                        </div>
+                    ))}
                 </div>
-                <div className="footer-bottom">
-                    <p>&copy; 2024 Paperfire Food. All Rights Reserved.</p>
-                </div>
+                {visibleProducts < productList.length && (
+                    <div className="text-center">
+                        <button onClick={loadMoreProducts} className="btn btn-primary">Load More</button>
+                    </div>
+                )}
             </div>
-        </footer>
-    )
-}
+        </section>
+    );
+};
 
-export default Footer;
+export default Product;
