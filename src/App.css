@@ -142,6 +142,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%; 
+    margin-top: 5vw;
     height: auto; 
 }
 
@@ -194,6 +195,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center; /* Center the items in the row */
 }
 
 .product-card {
@@ -202,7 +204,7 @@ body {
     overflow: hidden;
     padding: 20px;
     text-align: center;
-    flex: 1 1 calc(33.333% - 20px);
+    flex: 1 1 calc(33.333% - 20px); /* Default size for 3 cards per row */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -267,34 +269,16 @@ body {
     margin-top: 20px;
 }
 
-.load-more-btn {
-    background-color: #E0E0E0;
-    border: none;
-    color: #111;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    transition: background-color 0.3s;
-    outline: none;
-}
-
-.load-more-btn:hover,
-.load-more-btn:focus,
-.load-more-btn:active {
-    background-color: #FFFFFF;
-    outline: none;
-}
-
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .product-card {
-        flex: 1 1 calc(50% - 20px);
+        flex: 1 1 calc(50% - 20px); /* Adjust for 2 cards per row on medium screens */
     }
 }
 
 @media (max-width: 768px) {
     .product-card {
-        flex: 1 1 100%;
+        flex: 1 1 100%; /* 1 card per row on small screens */
     }
 }
 
@@ -419,26 +403,6 @@ body {
 .footer-title {
     font-size: 1.5rem;
     margin-bottom: 15px;
-}
-
-.footer-description {
-    margin-bottom: 20px;
-    font-size: 0.9rem;
-}
-
-.social-icons {
-    margin-top: 10px;
-}
-
-.social-icon {
-    color: #E0E0E0;
-    font-size: 1.2rem;
-    margin-right: 10px;
-    transition: color 0.3s;
-}
-
-.social-icon:hover {
-    color: #FFFFFF;
 }
 
 .footer-links,

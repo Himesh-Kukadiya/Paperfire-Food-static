@@ -1,9 +1,9 @@
-import { 
-    product1, 
-    product2, 
-    product3, 
-    product4, 
-    product5, 
+import {
+    product1,
+    product2,
+    product3,
+    product4,
+    product5,
     product6,
     gallery1,
     gallery2,
@@ -293,6 +293,21 @@ const galleryList = [
         name: "Griddle",
         image: gallery6,
     },
+    {
+        id: "g7",
+        name: "Deep Fryer",
+        image: gallery4,
+    },
+    {
+        id: "g8",
+        name: "Convection Oven",
+        image: gallery5,
+    },
+    {
+        id: "g9",
+        name: "Griddle",
+        image: gallery6,
+    },
 ];
 
 const testimonialsLsit = [
@@ -338,9 +353,41 @@ const testimonialsLsit = [
     }
 ]
 
+const servicesList = [
+    {
+        title: "Kitchen Appliance Rentals",
+        description: "We offer a variety of kitchen appliances available for rent to suit your culinary needs."
+    },
+    {
+        title: "Cooking Equipment Rentals",
+        description: "High-quality cooking equipment rentals for professional and home kitchens."
+    },
+    {
+        title: "Refrigeration and Storage Solutions",
+        description: "Reliable refrigeration and storage solutions to keep your food fresh."
+    },
+    {
+        title: "Dining Furniture Rentals",
+        description: "Stylish dining furniture rentals to enhance your dining experience."
+    },
+    {
+        title: "Event Equipment Rentals",
+        description: "Comprehensive event equipment rentals to ensure your event runs smoothly."
+    },
+    {
+        title: "Maintenance and Support Services",
+        description: "Expert maintenance and support services for all your rented equipment."
+    },
+    {
+        title: "Flexible Rental Terms and Contracts",
+        description: "Customizable rental terms and contracts to suit your needs."
+    }
+]
+
 export {
     productList,
     galleryList,
     testimonialsLsit,
-    menuItemsList
+    menuItemsList,
+    servicesList
 }

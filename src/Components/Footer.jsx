@@ -1,21 +1,9 @@
-
 const Footer = () => {
     return (
         <footer className="footer-section">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4">
-                        <h5 className="footer-title">Paperfire Food</h5>
-                        <p className="footer-description">Providing high-quality restaurant equipment for rental. We are
-                            committed to supporting restaurant owners and chefs with reliable rental solutions.</p>
-                        <div className="social-icons">
-                            <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
-                            <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
-                            <a href="#" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
+                    <div className="col-md-6">
                         <h5 className="footer-title">Quick Links</h5>
                         <ul className="footer-links">
                             <li><a href="#home">Home</a></li>
@@ -27,12 +15,13 @@ const Footer = () => {
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-md-6">
                         <h5 className="footer-title">Contact Info</h5>
                         <ul className="footer-contact-info">
-                            <li><i className="fas fa-map-marker-alt"></i> 123 Main Street, Anytown, USA</li>
-                            <li><i className="fas fa-phone"></i> (123) 456-7890</li>
-                            <li><i className="fas fa-envelope"></i> info@paperfirefood.com</li>
+                            <li><i className="fas fa-phone"></i> Phone: (XXX) XXX-XXXX</li>
+                            <li><i className="fas fa-envelope"></i> Email: info@paperfirefood.com</li>
+                            <li><i className="fas fa-map-marker-alt"></i> Address: [Insert Address]</li>
+                            <li><i className="fas fa-clock"></i> Hours of Operation: Monday - Friday: 9 AM - 6 PM</li>
                         </ul>
                     </div>
                 </div>
@@ -44,4 +33,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
